@@ -56,4 +56,33 @@
         android:layout_below="@+id/rock"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/rockNumber"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/rock" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/paperNumber"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/paper" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/scissorsNumber"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/scissors" />
+
 </RelativeLayout>
